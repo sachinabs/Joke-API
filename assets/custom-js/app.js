@@ -104,3 +104,8 @@ function punchLine()
     
     }
     
+function shareFacebook()
+{
+    let shareUrl = "https://sachinabs.github.io/testJokes/show.html?postId="+postId;
+    window.open('http://facebook.com/sharer/sharer.php?u='+encodeURIComponent(shareUrl), '', 'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+}
