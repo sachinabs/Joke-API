@@ -57,7 +57,7 @@ if(s == 'programming')
                     let text = document.getElementById("SetUp");       
                     text.innerHTML = data_filter[rand].setup;  
                     console.log("Type is "+ data_filter[rand].type);
-
+                    postId = data[rand].id;
                 });            
 }
 
@@ -78,7 +78,7 @@ if(s == 'general')
                     let text = document.getElementById("SetUp");       
                     text.innerHTML = data_filter[rand].setup;  
                     console.log("Type is "+ data_filter[rand].type);
-
+                    postId = data[rand].id;
                 });            
 }
 
