@@ -1,3 +1,4 @@
+console.log("sample");
 let s = sessionStorage.getItem("type");
 
 function setSessionForProgramming()
