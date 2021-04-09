@@ -52,7 +52,9 @@ if(s == 'programming')
                 {
                     var data_filter = data.filter( element => element.type =="programming")
                     let lenOfFilter = data_filter.length;
-                    let rand = Math.floor(Math.random() * lenOfFilter); 
+                    let rand = Math.floor(Math.random() * lenOfFilter);  //5 ->g
+                    console.log(data_filter.id);
+
                     line=data_filter[rand].punchline;
                     let text = document.getElementById("SetUp");       
                     text.innerHTML = data_filter[rand].setup;  
