@@ -1,3 +1,5 @@
+console.log("Test");
+
 let s = sessionStorage.getItem("type");
 
 function setSessionForProgramming()
@@ -62,7 +64,6 @@ if(s == 'programming')
                     postId = data[rand].id;
                 });            
 }
-console.log("Test");
 console.log(postId);
 if(s == 'general')
 {
