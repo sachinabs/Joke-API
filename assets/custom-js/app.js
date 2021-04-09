@@ -95,8 +95,8 @@ function punchLine()
 
     function shareTwitter()
     {
-    // console.log(postId);
-    let quote = "I found a funny Joke for you...! Have a look...! %0D%0A"
+    console.log(postId);
+    let quote = "I found a funny Joke for you...! Have a look...! %0D%0A";
     let shareUrl = "https://sachinabs.github.io/testJokes/show.html?postId="+postId;
     console.log(shareUrl);
     var tweetUrl = "https://twitter.com/intent/tweet?text="+quote+" see here %0D%0A "+shareUrl;
