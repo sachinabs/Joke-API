@@ -39,7 +39,7 @@ if(s == null)
     });
 }
 
-
+console.log(postId);
 if(s == 'programming')
 {
 
@@ -60,7 +60,7 @@ if(s == 'programming')
                     postId = data[rand].id;
                 });            
 }
-
+console.log(postId);
 if(s == 'general')
 {
 
