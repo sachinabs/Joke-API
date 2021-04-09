@@ -44,7 +44,7 @@ else
     let postNumberLink=post[0];
     let postNumberFind = postNumberLink.split("=");
     let postNumber = postNumberFind[1];
-    console.log(postNumber);
+    // console.log(postNumber);
     fetch("assets/json/punch.json")
             .then(function (response)
             {
@@ -53,12 +53,12 @@ else
             .then(function (data)
             {
                 var data_filter = data.filter( element => element.id ==postNumber)
-                console.log(data_filter);
+                // console.log(data_filter);
                 // console.log();
                 line=data_filter[0].punchline;
                 let text = document.getElementById("SetUp");       
                 text.innerHTML = data_filter[0].setup;  
-                console.log("Type is "+ data_filter[0].type);
+                // console.log("Type is "+ data_filter[0].type);
 
             });            
 
