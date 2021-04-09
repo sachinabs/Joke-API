@@ -1,7 +1,3 @@
-console.log("Test");
-console.log("Testc");
-
-
 let s = sessionStorage.getItem("type");
 
 function setSessionForProgramming()
