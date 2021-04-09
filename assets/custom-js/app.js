@@ -62,6 +62,7 @@ if(s == 'programming')
                     postId = data[rand].id;
                 });            
 }
+console.log("Test");
 console.log(postId);
 if(s == 'general')
 {
