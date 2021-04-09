@@ -1,10 +1,11 @@
-console.log("sample");
+
 let s = sessionStorage.getItem("type");
 
 function setSessionForProgramming()
     {
         sessionStorage.setItem("type", "programming");
         location.reload();   
+        console.log("sample");
     }
 
     function setSessionForGeneral()
