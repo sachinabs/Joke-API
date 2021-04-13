@@ -104,7 +104,7 @@ function punchLine()
     let shareUrl = "https://sachinabs.github.io/testJokes/show.html?postId="+postId;
     console.log(shareUrl);
     var tweetUrl = "https://twitter.com/intent/tweet?text="+quote+" see here %0D%0A "+shareUrl;
-    //window.location.replace(tweetUrl);
+    window.location.replace(tweetUrl);
     
     }
     
