@@ -62,6 +62,7 @@ if(s == 'programming')
                     text.innerHTML = data_filter[rand].setup;  
                     console.log("Type is "+ data_filter[rand].type);
                     postId = data[rand].id;
+                    console.log(postId);
                 });            
 }
 console.log(postId);
